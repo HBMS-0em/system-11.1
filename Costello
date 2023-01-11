@@ -1,0 +1,90 @@
+*Pale moon browser
+*Tor Browser 
+*Mindguard 
+*Kali Nethunter 
+*Dictionary 
+*Hanoman Anti-Malware
+*OsmAnd Maps
+*VLC media player 
+*Spotify 
+*Transmission torrent downloader
+*Freedombox personal server
+*Gimp image creator 
+*Klettres educator 
+*Netflix 
+*minecraft
+*Doom
+*Half-life 1
+*Aquaria
+*Zelda
+*Tomb Raider
+*starship sorades
+*ValyriaTear 
+*Wolfenstine - Blades of Agony 
+*Diabolo 
+*Duke Nukum 3D
+*Gparted partition editor 
+*Debian Snap Store 
+
+
+debootstrap 
+rm -rf
+sudo get upgrade
+apt-get install ufw
+ufw enable
+ufw default deny incoming
+ufw default allow outgoing
+flash install system
+sudo apt update
+sudo apt install snapd
+sudo snap install core
+apt install cryptsetup
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+sudo cryptsetup open /dev/sda0 <Legend0>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda1
+sudo cryptsetup open /dev/sda1 <Legend1>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda2
+sudo cryptsetup open /dev/sdxy <Legend2>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3
+sudo cryptsetup open /dev/sda3 <Legend3>
+sudo apt update 
+git clone https://github.com/FilipinOTech/Pale-Moon
+sudo apt install torbrowser-launcher
+apt install libgtk-2.0-dev
+git clone https://github.com/asbestomolesto/mindguard
+git clone https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project
+git clone https://github.com/dolph/dictionary/find/master
+$ cat /usr/share/dict/words | wc -l 235886
+$ cat enable1.txt | wc -l 172819
+$ cat popular.txt | wc -l 25322
+git clone https://github.com/hrtywhy/Hanoman
+git clone https://github.com/osmandapp/OsmAnd
+sudo snap install vlc
+sudo snap install spotify
+git clone https://github.com/transmission/transmission
+sudo apt-get update
+sudo DEBIAN_FRONTEND=noninteractive apt-get install freedombox
+sudo snap install todoist
+sudo snap install gimp
+sudo snap install klettres
+sudo snap install netflix-web
+git clone github.com/supdroidstudio/mcpe-linux/raw/master/mcpe-linux.zip
+git clone https://github.com/skyjake/Doomsday-Engine.git
+git clone https://github.com/ValveSoftware/halflife
+git clone https://github.com/AquariaOSE/Aquaria
+git clone https://github.com/solarus-games/zsdx 
+git clone https://github.com/opentomb/OpenTomb
+git clone https://github.com/maettig/starship-sorades-13k
+sudo snap install boa
+git clone https://github.com/ValyriaTear/ValyriaTear
+git clone https://github.com/mitallast/diablo-js
+git clone https://github.com/videogamepreservation/dukenukem3d
+sudo apt-get install gparted
+sudo snap install snapd
+sudo install snap store
+git clone https://github.com/HBMS-0em/Read-Me
+
+ 
+
+
+
